@@ -66,7 +66,8 @@ console.log(result.id)
       style={{'borderWidth':'5px','borderColor':'darkgoldenrod','alignContent':'center','right':"100px",'width':'500px','height':'50px'}}/>
       <button type="submit" id="search" name="search" onClick={display} style={{'borderWidth':'5px','borderColor':'black','width':'105px','height':'65px','backgroundColor':'darkgoldenrod'}}><b>Search</b></button>
       <br/>
-      <div id="res"><b>{movie}</b></div>
+        <div id="res"><b>{movie}</b></div>
+     <p id="id"></p>
      </div>
 
   )
