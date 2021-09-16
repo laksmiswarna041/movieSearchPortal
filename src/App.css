@@ -1,0 +1,40 @@
+.AppHead{
+  background-color: rgb(226, 155, 155);
+ 
+}
+.movie {
+  width: 250px;
+  height: 25px;
+  top: 50px;
+  left:100px;
+}
+.table{
+  border-radius: 10px;
+  border-color: darkslategrey;
+  table-layout: fixed;
+  width: auto;
+  height: auto;
+}
+.tr{
+  width: auto;
+  height: auto;
+  background-color: floralwhite;
+}
+.search{
+  background-color: darkkhaki;
+  font-size: large;
+  color: black;
+  
+}
+.app{
+  position: relative;
+  align-content: center;
+}
+.header{
+  font-size: x-large;
+  color:black;
+  left: 150%;
+  top:50%;
+  align-content: center;
+  font-family:cursive
+}
