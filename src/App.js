@@ -60,34 +60,15 @@ console.log(result.id)
 
 
   return (
-    <div>
-    <div className="AppHead">
-     <div className="header"><b>MOVIE SEARCH PORTAL</b></div></div>
-      <input name="movie" id="movie" onChange={handleInputChange} placeholder="Search for a movie..."/>
-      <button type="submit" id="search" name="search" onClick={display}>Search</button>
+   <div className="body">
+       <p style={{'textAlign':'center','right':"100px",'fontStyle':'oblique','fontFamily':'serif','fontSize':'50px','alignContent':'center'}}>MOVIE SEARCH PORTAL</p>
+      <input name="movie" id="movie" onChange={handleInputChange} placeholder="Search for a movie..."
+      style={{'borderWidth':'5px','borderColor':'darkgoldenrod','alignContent':'center','right':"100px",'width':'500px','height':'50px'}}/>
+      <button type="submit" id="search" name="search" onClick={display} style={{'borderWidth':'5px','borderColor':'black','width':'105px','height':'65px','backgroundColor':'darkgoldenrod'}}><b>Search</b></button>
       <br/>
-      <div id="res"><b>{movie}</b>
-      <table className="table">
-        <tr className="tr">
-          <td >ID</td>
-          <td >Title</td>
-          <td >Overview</td>
-          <td >Release Date</td>
-          <td >Popularity</td>
-          <td >Language</td>
-        </tr>
-        <tr className="tr">
-        <td id="id"></td>
-        <td id="title"></td>
-        <td id="overview"></td>
-        <td id="release"></td>
-        <td id="pop"></td>
-        <td id="lan"></td>
-        </tr>
-      </table>
-     
-      </div>
-    </div>
+      <div id="res"><b>{movie}</b></div>
+     </div>
+
   )
 }
 export default App;
